@@ -176,7 +176,7 @@ PROCESS_THREAD(udp_client_process, ev, data)
 
 
 
-  //----------------------Set Tx----------
+  //---------------------- Set Tx ----------
 
   etimer_set(&set_tx_timer, 30 * CLOCK_SECOND);
   set_tx_flag();
